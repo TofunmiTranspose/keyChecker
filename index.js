@@ -1,7 +1,8 @@
+const main = document.querySelector('main');
 const codes = document.querySelector('.code-container');
 const input = document.querySelector('input');
 
-window.addEventListener('click', (e) => {
+main.addEventListener('click', (e) => {
   input.focus();
 });
 window.addEventListener('keydown', (e) => {
