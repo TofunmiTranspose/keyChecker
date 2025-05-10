@@ -45,8 +45,11 @@ p{
   color: white;
 }
 input{
-  border: 1px solid grey;
-  height: 20px;
+  display: hidden;
+  background-color: transparent;
+  border: 0;
+  width: 0;
+  height: 0;
 }
 @media (max-width: 510px) {
   .main-wrapper{
@@ -54,4 +57,4 @@ input{
     margin-top: 1rem;
     height: 80vh;
   };
-}
+};

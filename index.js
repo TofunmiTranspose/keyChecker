@@ -1,4 +1,8 @@
 const codes = document.querySelector('.code-container');
+
+window.addEventListener('click', (e) => {
+  document.querySelector('input').focus();
+});
 window.addEventListener('keydown', (e) => {
   codes.innerHTML = `
     <nav>
@@ -13,5 +17,6 @@ window.addEventListener('keydown', (e) => {
       <small>event.code</small>
       <div>${e.key === " " ? 'Space' : e.code}</div>
     </nav>
+    <input type="text">
   `
 });
