@@ -29,6 +29,12 @@ p{
   padding: 15px;
   justify-self: center;
 }
+.container-wrapper{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 10px;
+}
 .code-container{
   display: flex;
   justify-content: space-around;
@@ -45,11 +51,10 @@ p{
   color: white;
 }
 input{
-  display: hidden;
-  background-color: transparent;
-  border: 0;
-  width: 0;
-  height: 0;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  text-align: center;
 }
 @media (max-width: 510px) {
   .main-wrapper{
